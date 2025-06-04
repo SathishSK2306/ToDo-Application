@@ -1,15 +1,15 @@
-import TodoForm from "./components/TodoForm"
-import TodoList from "./components/TodoList"
+import TodoForm from "./components/TodoForm";
+import TodoList from "./components/TodoList";
 
 const App = () => {
   return (
     <div>
-      <h1>Todo application</h1>
-      <TodoForm/>
+      <h1 className="text-2xl text-center pt-7">Todo application</h1>
+      <TodoForm />
       <hr />
-      <h2>Todo List</h2>
-      <TodoList/>
+      <h2 className="text-2xl text-center pt-7">Todo List</h2>
+      <TodoList />
     </div>
-  )
-}
-export default App
+  );
+};
+export default App;
